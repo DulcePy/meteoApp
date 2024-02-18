@@ -61,8 +61,10 @@ main {
   color: #8d8c8f;
 }
 
-.weather-details strong {
+.weather-details strong,
+#description {
   color: rgb(253, 102, 152);
+  font-weight: 700;
 }
 
 .current-temperature {
