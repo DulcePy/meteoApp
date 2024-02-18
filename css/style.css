@@ -4,7 +4,8 @@ body {
 }
 
 a {
-  color: blueviolet;
+  color: rgb(101, 32, 165);
+  font-weight: 700;
 }
 
 .weather-app {
@@ -31,13 +32,18 @@ header {
 }
 
 .search-button {
-  background-color: blueviolet;
+  background-color: rgb(101, 32, 165);
   padding: 15px 30px;
   border: none;
   border-radius: 6px;
   color: white;
   font-size: 16px;
   margin-left: 5px;
+  transition: ease-in-out 0.2s;
+}
+
+.search-button:hover {
+  background-color: rgb(136, 48, 218);
 }
 
 main {
@@ -52,6 +58,7 @@ main {
 .current-city {
   margin: 0;
   font-size: 34px;
+  font-family: "Protest Strike", sans-serif;
 }
 
 .current-details {
@@ -63,7 +70,7 @@ main {
 
 .weather-details strong,
 #description {
-  color: rgb(253, 102, 152);
+  color: blueviolet;
   font-weight: 700;
 }
 
