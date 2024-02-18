@@ -20,6 +20,9 @@ function refreshWeather(response) {
   let date = new Date(response.data.time * 1000);
   let timeElement = document.querySelector("#current-date");
   timeElement.innerHTML = formatDate(date);
+
+  let icon = document.querySelector("#icon");
+  icon.innerHTML = `<img src="${response.data.condition.icon_url}" class="current-temperature-icon"/>`;
 }
 
 function formatDate(date) {
