@@ -101,13 +101,14 @@ main {
   display: flex;
   justify-content: space-around;
   margin-top: 30px;
-  color: #4f4f50;
 }
 
 .weather-forecast-date {
   font-size: 16px;
-  opacity: 0.6;
+  /*opacity: 0.6;*/
   margin-bottom: 10px;
+  color: rgb(31, 109, 211);
+  text-align: center;
 }
 
 .weather-forecast-temperatures {
@@ -119,7 +120,7 @@ main {
 }
 
 .forecast-temperature-max {
-  color: rgb(31, 109, 211);
+  color: blueviolet;
   padding: 0 10px 0 0;
 }
 
