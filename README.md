@@ -8,4 +8,4 @@
 
 ### Weather app
 
-<img src="" alt="Weather app" width="700">
+<img src="https://github.com/DulcePy/portfolio-dulce/blob/main/images/projects/weather.png" alt="Weather app" width="700">
