@@ -12,4 +12,4 @@
 
 ### Weather Mobile app 📱
 
-<img src="images/mobile-weather.jpg" alt="Weather mobile app" width="700">
+<img src="images/mobile-weather.jpg" alt="Weather mobile app" width="400">
