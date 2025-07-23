@@ -3,7 +3,7 @@
 🌤 Responsive web application that displays the current weather and a 5-day forecast. Users can search for the weather in any city using an interactive search tool.
 
 
-### 🛠 Tecnologies
+### 🛠 Technologies
 - HTML
 - CSS
 - JavaScript
